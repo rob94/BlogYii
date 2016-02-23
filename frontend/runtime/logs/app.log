@@ -1,0 +1,1588 @@
+2016-01-14 17:22:37 [::1][-][b22eoheumvjm0dccrkcpmto270][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "bakend".' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('bakend', Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-01-14 17:22:37 [::1][-][b22eoheumvjm0dccrkcpmto270][info][application] $_COOKIE = [
+    '_frontendCsrf' => '30494e9d728da167e0bca9beb0bb10a706db358e605b6e311ff6845bf0375559a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"TwpIvccf1cfizJIrrB3VfHeamwgGwfmv\";}'
+    '_frontendSessionId' => 'b22eoheumvjm0dccrkcpmto270'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=30494e9d728da167e0bca9beb0bb10a706db358e605b6e311ff6845bf0375559a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22TwpIvccf1cfizJIrrB3VfHeamwgGwfmv%22%3B%7D; _frontendSessionId=b22eoheumvjm0dccrkcpmto270'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1984'
+    'REDIRECT_URL' => '/blogyii/bakend'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/bakend'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1452788557.218
+    'REQUEST_TIME' => 1452788557
+]
+2016-01-14 17:39:58 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\backend\models\Categories.php:45
+2016-01-14 17:39:58 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'bnlacU5LZ1k6Dio4OCgEP18aPBg0AS4rHDtpJygDAjgDDj02OS0KLw=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\Categories'
+        'searchModelClass' => 'backend\\models\\CategoriesSearch'
+        'controllerClass' => 'backend\\controllers\\CategoriesController'
+        'viewPath' => 'backend\\views\\Categories'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '30494e9d728da167e0bca9beb0bb10a706db358e605b6e311ff6845bf0375559a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"TwpIvccf1cfizJIrrB3VfHeamwgGwfmv\";}'
+    '_frontendSessionId' => 'b22eoheumvjm0dccrkcpmto270'
+    '_backendCsrf' => 'c333f220615d803f30c7fb03afcad063be53b94c8591484f2654b174b731c086a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"aRdENkuLGOEomcIs-pXw1pytgpbcmuLP\";}'
+    '_backendSessionId' => 'mi2v47ras35j3i1plqdvo16i57'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '581'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=30494e9d728da167e0bca9beb0bb10a706db358e605b6e311ff6845bf0375559a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22TwpIvccf1cfizJIrrB3VfHeamwgGwfmv%22%3B%7D; _frontendSessionId=b22eoheumvjm0dccrkcpmto270; _backendCsrf=c333f220615d803f30c7fb03afcad063be53b94c8591484f2654b174b731c086a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22aRdENkuLGOEomcIs-pXw1pytgpbcmuLP%22%3B%7D; _backendSessionId=mi2v47ras35j3i1plqdvo16i57'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '2076'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1452789598.623
+    'REQUEST_TIME' => 1452789598
+]
+2016-01-14 17:40:05 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\backend\models\Categories.php:45
+2016-01-14 17:40:05 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'UHVmODFuYlcEAhZxRw0BMWEWAFFLJCslIjdVblcmBzY9AgF/RggPIQ=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\Categories'
+        'searchModelClass' => 'backend\\models\\CategoriesSearch'
+        'controllerClass' => 'backend\\controllers\\CategoriesController'
+        'viewPath' => 'backend\\views\\Categories'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'answers' => [
+        '2f115991263c395e43f1217ed2536bd9' => '1'
+        '421ccb88a7784a233582f7608df952d3' => '1'
+        'a97d0eac0f6bd60891f6283af7bca024' => '1'
+        'd6c3f20d2e6e5eb368df35fb8d6f6b26' => '1'
+        'a27b3535e78b35a4abc0b00086f5145e' => '1'
+        '63c9a12a58643ecceb25526e5eb8c49f' => '1'
+        '72416867d9df0d02b94d01dfc730c2fc' => '1'
+        'd139cbc2dcde328bc139539693d97575' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '30494e9d728da167e0bca9beb0bb10a706db358e605b6e311ff6845bf0375559a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"TwpIvccf1cfizJIrrB3VfHeamwgGwfmv\";}'
+    '_frontendSessionId' => 'b22eoheumvjm0dccrkcpmto270'
+    '_backendCsrf' => 'c333f220615d803f30c7fb03afcad063be53b94c8591484f2654b174b731c086a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"aRdENkuLGOEomcIs-pXw1pytgpbcmuLP\";}'
+    '_backendSessionId' => 'mi2v47ras35j3i1plqdvo16i57'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '968'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.106 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=30494e9d728da167e0bca9beb0bb10a706db358e605b6e311ff6845bf0375559a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22TwpIvccf1cfizJIrrB3VfHeamwgGwfmv%22%3B%7D; _frontendSessionId=b22eoheumvjm0dccrkcpmto270; _backendCsrf=c333f220615d803f30c7fb03afcad063be53b94c8591484f2654b174b731c086a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22aRdENkuLGOEomcIs-pXw1pytgpbcmuLP%22%3B%7D; _backendSessionId=mi2v47ras35j3i1plqdvo16i57'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '2076'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1452789605.135
+    'REQUEST_TIME' => 1452789605
+]
+2016-01-19 17:31:14 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\backend\models\Tags.php:42
+2016-01-19 17:31:14 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'S1BwSE9zVlAxKhV9fiIsBRMJCB4/EAEfGz8bEXtCPR8TYhkJFiolZQ=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\Tags'
+        'searchModelClass' => 'backend\\models\\TagsSearch'
+        'controllerClass' => 'backend\\controllers\\TagsController'
+        'viewPath' => 'backend\\views\\tags'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_frontendSessionId' => 'fhmkaocmpl6q7jnlk28dng2si2'
+    '_frontendCsrf' => '50d089934531c1d862dff742f6075644b072cb4bf71fe37e84b8f0da75526802a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"zze51QzUXYxVpcWOPokY41kOX2iAYYs5\";}'
+    '_backendCsrf' => '7c4924eeb2751bfdaa5e0856505ed58ccfc2faebd598a1173fb73df7a00e8d41a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"1jkFsQavo-uatw6NnhGZoJA_DuASCBRm\";}'
+    '_backendSessionId' => 'gtik1kii8303pvc0rmkn0jab54'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '559'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendSessionId=fhmkaocmpl6q7jnlk28dng2si2; _frontendCsrf=50d089934531c1d862dff742f6075644b072cb4bf71fe37e84b8f0da75526802a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22zze51QzUXYxVpcWOPokY41kOX2iAYYs5%22%3B%7D; _backendCsrf=7c4924eeb2751bfdaa5e0856505ed58ccfc2faebd598a1173fb73df7a00e8d41a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%221jkFsQavo-uatw6NnhGZoJA_DuASCBRm%22%3B%7D; _backendSessionId=gtik1kii8303pvc0rmkn0jab54'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1504'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453221074.668
+    'REQUEST_TIME' => 1453221074
+]
+2016-01-19 17:31:32 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\backend\models\Tags.php:42
+2016-01-19 17:31:32 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'TnNVVWNwakg0CTBgUiEQHRYqLQMTEz0HHhw.DFdBAQcWQTwUOikZfQ=='
+    'Generator' => [
+        'modelClass' => 'backend\\models\\Tags'
+        'searchModelClass' => 'backend\\models\\TagsSearch'
+        'controllerClass' => 'backend\\controllers\\TagsController'
+        'viewPath' => 'backend\\views\\tags'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'answers' => [
+        'ee95bce3d3489fdcf8cacda84155f979' => '1'
+        '1be0cb3f9cb8937888dba5b76eaaff9a' => '1'
+        '8b52bb6f8cdefb96806c00969f1f609d' => '1'
+        '520bf94746ab2a277f18178782a5c0b8' => '1'
+        '369d0d80739510e7f3d48005011187c8' => '1'
+        'd062054383b49db14ffc4a37b2b0a4ac' => '1'
+        '64dc332d0254008eb5ca27553b06f5e6' => '1'
+        '076e3a1060a854f4e2fec773a2847571' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    '_frontendSessionId' => 'fhmkaocmpl6q7jnlk28dng2si2'
+    '_frontendCsrf' => '50d089934531c1d862dff742f6075644b072cb4bf71fe37e84b8f0da75526802a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"zze51QzUXYxVpcWOPokY41kOX2iAYYs5\";}'
+    '_backendCsrf' => '7c4924eeb2751bfdaa5e0856505ed58ccfc2faebd598a1173fb73df7a00e8d41a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"1jkFsQavo-uatw6NnhGZoJA_DuASCBRm\";}'
+    '_backendSessionId' => 'gtik1kii8303pvc0rmkn0jab54'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '942'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendSessionId=fhmkaocmpl6q7jnlk28dng2si2; _frontendCsrf=50d089934531c1d862dff742f6075644b072cb4bf71fe37e84b8f0da75526802a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22zze51QzUXYxVpcWOPokY41kOX2iAYYs5%22%3B%7D; _backendCsrf=7c4924eeb2751bfdaa5e0856505ed58ccfc2faebd598a1173fb73df7a00e8d41a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%221jkFsQavo-uatw6NnhGZoJA_DuASCBRm%22%3B%7D; _backendSessionId=gtik1kii8303pvc0rmkn0jab54'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1507'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453221092.082
+    'REQUEST_TIME' => 1453221092
+]
+2016-01-26 16:27:13 [::1][1][8ba0d9shtuf72uusjgmur0vol1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "bakend".' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php:460
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('bakend', Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Página no encontrada.' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php:96
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#2 {main}
+2016-01-26 16:27:13 [::1][1][8ba0d9shtuf72uusjgmur0vol1][info][application] $_COOKIE = [
+    '_frontendCsrf' => 'ef9d330db5ae808a0ab9a53ffcdd9018873659e2827185c5ef095bda464fa742a:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"sqKN-8IkGKE5_TcZeP41AX5gziKlIW5E\";}'
+    '_frontendSessionId' => '8ba0d9shtuf72uusjgmur0vol1'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=ef9d330db5ae808a0ab9a53ffcdd9018873659e2827185c5ef095bda464fa742a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22sqKN-8IkGKE5_TcZeP41AX5gziKlIW5E%22%3B%7D; _frontendSessionId=8ba0d9shtuf72uusjgmur0vol1; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1432'
+    'REDIRECT_URL' => '/blogyii/bakend'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/bakend'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453822033.551
+    'REQUEST_TIME' => 1453822033
+]
+2016-01-28 17:03:54 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\common\models\Post.php:54
+2016-01-28 17:03:54 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'MndFS3k2OEFDGzIbGgF.EksuMg4eA34wa0MBDCpSSzJUTjEgGH55Hg=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Post'
+        'searchModelClass' => 'backend\\models\\PostSearch'
+        'controllerClass' => 'backend\\controllers\\PostController'
+        'viewPath' => 'backend\\views\\Post'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '556'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1567'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453997034.048
+    'REQUEST_TIME' => 1453997034
+]
+2016-01-28 17:03:58 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\common\models\Post.php:54
+2016-01-28 17:03:58 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'UkVNLXpMTUEjKTp9GXsLEiscOmgdeQswC3EJaikoPjI0fDlGGwQMHg=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Post'
+        'searchModelClass' => 'backend\\models\\PostSearch'
+        'controllerClass' => 'backend\\controllers\\PostController'
+        'viewPath' => 'backend\\views\\Post'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'answers' => [
+        'c4a46b58b1d6d97088cf8a4258fdea8a' => '1'
+        '376bc4782f2bdaed3ca83621f3994489' => '1'
+        '91b44312d3fa2c9f27ae49e6946fa010' => '1'
+        'dce6b874ba3d967a119f8823a69c5609' => '1'
+        'e7e064cfdb377c967f93c6251ed84359' => '1'
+        '8de57b2a76b7f0ec04fa316905c99ebd' => '1'
+        '12956b9108031fd2dde5a1a9b01487d9' => '1'
+        '10be76c2d69d1276c2f49568cea49c9d' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '941'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1567'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453997038.586
+    'REQUEST_TIME' => 1453997038
+]
+2016-01-28 17:05:43 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\common\models\Post.php:54
+2016-01-28 17:05:43 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'b2N4SXZxVTAeDw8ZFUYTYxY6DwwRRBNBNlc8DiUVJkMJWgwiFzkUbw=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Post'
+        'searchModelClass' => 'frontend\\models\\PostSearch'
+        'controllerClass' => 'frontend\\controllers\\PostController'
+        'viewPath' => 'backend\\views\\Post'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '558'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1570'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453997143.35
+    'REQUEST_TIME' => 1453997143
+]
+2016-01-28 17:05:57 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\common\models\Post.php:54
+2016-01-28 17:05:57 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'MHBxTzRkVk1BHAYfV1MQHkkpBgpTURA8aUQ1CGcAJT5WSQUkVSwXEg=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Post'
+        'searchModelClass' => 'frontend\\models\\PostSearch'
+        'controllerClass' => 'frontend\\controllers\\PostController'
+        'viewPath' => 'backend\\views\\Post'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'answers' => [
+        'bdab1123b08c6135055dc3068bdb3d97' => '1'
+        '8cc3bf94feebaebf5db56c05ef7f594f' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '655'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1572'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453997157.492
+    'REQUEST_TIME' => 1453997157
+]
+2016-01-28 17:20:35 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\common\models\Post.php:54
+2016-01-28 17:20:35 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'X0wwcHl4a00uIEcgGk8tHiYVRzUeTS08Bnh0NyocGD45dUQbGDAqEg=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Post'
+        'searchModelClass' => 'frontend\\models\\PostSearch'
+        'controllerClass' => 'frontend\\controllers\\PostController'
+        'viewPath' => 'frontend\\views\\Post'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'preview' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '559'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1644'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998035.165
+    'REQUEST_TIME' => 1453998035
+]
+2016-01-28 17:20:40 [::1][-][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\common\models\Post.php:54
+2016-01-28 17:20:40 [::1][-][-][info][application] $_GET = [
+    'id' => 'crud'
+]
+
+$_POST = [
+    '_frontendCsrf' => 'NlV6cEpXYVRHOQ0gKWAnB08MDTUtYiclb2E.NxkzEidQbA4bKx8gCw=='
+    'Generator' => [
+        'modelClass' => 'common\\models\\Post'
+        'searchModelClass' => 'frontend\\models\\PostSearch'
+        'controllerClass' => 'frontend\\controllers\\PostController'
+        'viewPath' => 'frontend\\views\\Post'
+        'baseControllerClass' => 'yii\\web\\Controller'
+        'indexWidgetType' => 'grid'
+        'enableI18N' => '1'
+        'enablePjax' => '0'
+        'messageCategory' => 'app'
+        'template' => 'default'
+    ]
+    'answers' => [
+        'bdab1123b08c6135055dc3068bdb3d97' => '1'
+        '8cc3bf94feebaebf5db56c05ef7f594f' => '1'
+        '259fa3751c9fbf55d631bdf64fbcb656' => '1'
+        'a825492a4ebf74541dae45924ed4a0d6' => '1'
+        '047192c30c7aade27ab4341f8c1ccbd2' => '1'
+        'a0269bd4260e7f2f61423de1e868d38c' => '1'
+        '5fcffb969e5061f1ca61525dd749726c' => '1'
+        '6a17f300e7cbaf394d763bd9035de0eb' => '1'
+    ]
+    'generate' => ''
+]
+
+$_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '944'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'CONTENT_TYPE' => 'application/x-www-form-urlencoded'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/gii/crud'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1644'
+    'REDIRECT_URL' => '/blogyii/gii/crud'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/gii/crud'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998040.47
+    'REQUEST_TIME' => 1453998040
+]
+2016-01-28 17:22:15 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ';', expecting ']'' in C:\wamp\www\blogyii\frontend\views\layouts\main.php:42
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(392): yii\base\View->renderFile()
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\Controller->renderContent()
+#2 C:\wamp\www\blogyii\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#7 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-01-28 17:22:15 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1656'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998135.265
+    'REQUEST_TIME' => 1453998135
+]
+2016-01-28 17:23:05 [::1][1][2q0mura6k6jat7ub18p1715mk4][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 17:23:04 [::1][1][2q0mura6k6jat7ub18p1715mk4][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_frontendSessionId' => '2q0mura6k6jat7ub18p1715mk4'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _frontendSessionId=2q0mura6k6jat7ub18p1715mk4; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1664'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998184.976
+    'REQUEST_TIME' => 1453998184
+]
+2016-01-28 17:23:25 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 17:23:25 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 's9673v50t0ojq7sa6dlm3fsi96'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=s9673v50t0ojq7sa6dlm3fsi96'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1671'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998205.681
+    'REQUEST_TIME' => 1453998205
+]
+2016-01-28 17:24:12 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 17:24:12 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 's9673v50t0ojq7sa6dlm3fsi96'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=s9673v50t0ojq7sa6dlm3fsi96'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1681'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998251.995
+    'REQUEST_TIME' => 1453998251
+]
+2016-01-28 17:24:36 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 17:24:36 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 's9673v50t0ojq7sa6dlm3fsi96'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=s9673v50t0ojq7sa6dlm3fsi96'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1684'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998276.077
+    'REQUEST_TIME' => 1453998276
+]
+2016-01-28 17:25:57 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 17:25:57 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 's9673v50t0ojq7sa6dlm3fsi96'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=s9673v50t0ojq7sa6dlm3fsi96'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1693'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998357.862
+    'REQUEST_TIME' => 1453998357
+]
+2016-01-28 17:34:06 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 17:34:06 [::1][-][s9673v50t0ojq7sa6dlm3fsi96][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 's9673v50t0ojq7sa6dlm3fsi96'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/post/view'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=s9673v50t0ojq7sa6dlm3fsi96'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1703'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1453998846.832
+    'REQUEST_TIME' => 1453998846
+]
+2016-01-28 18:03:14 [::1][-][-][error][yii\base\ErrorException:4] exception 'yii\base\ErrorException' with message 'syntax error, unexpected ''label'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'' in C:\wamp\www\blogyii\frontend\views\layouts\main.php:53
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(392): yii\base\View->renderFile()
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(378): yii\base\Controller->renderContent()
+#2 C:\wamp\www\blogyii\frontend\controllers\SiteController.php(75): yii\base\Controller->render()
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(55): frontend\controllers\SiteController->actionIndex()
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(55): ::call_user_func_array:{C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php:55}()
+#5 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams()
+#6 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction()
+#7 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction()
+#8 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest()
+#9 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#10 {main}
+2016-01-28 18:03:14 [::1][-][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 's9673v50t0ojq7sa6dlm3fsi96'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=s9673v50t0ojq7sa6dlm3fsi96'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1745'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1454000594.416
+    'REQUEST_TIME' => 1454000594
+]
+2016-01-28 18:06:45 [::1][1][g854bptrglkfs0ckjphi5obl54][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 18:06:45 [::1][1][g854bptrglkfs0ckjphi5obl54][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 'g854bptrglkfs0ckjphi5obl54'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=g854bptrglkfs0ckjphi5obl54; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1771'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1454000805.77
+    'REQUEST_TIME' => 1454000805
+]
+2016-01-28 18:07:41 [::1][1][g854bptrglkfs0ckjphi5obl54][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Parámetros requeridos ausentes: id' in C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Controller.php:106
+Stack trace:
+#0 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\InlineAction.php(49): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#2 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('view', Array)
+#3 C:\wamp\www\blogyii\vendor\yiisoft\yii2\web\Application.php(84): yii\base\Module->runAction('post/view', Array)
+#4 C:\wamp\www\blogyii\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\wamp\www\blogyii\index.php(18): yii\base\Application->run()
+#6 {main}
+2016-01-28 18:07:41 [::1][1][g854bptrglkfs0ckjphi5obl54][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 'g854bptrglkfs0ckjphi5obl54'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=g854bptrglkfs0ckjphi5obl54; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1774'
+    'REDIRECT_URL' => '/blogyii/post/view'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/view'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1454000861.679
+    'REQUEST_TIME' => 1454000861
+]
+2016-01-28 18:08:08 [::1][1][-][error][yii\i18n\PhpMessageSource::loadMessages] The message file for category 'app' does not exist: C:\wamp\www\blogyii\frontend/messages/es-Mx/app.php Fallback file does not exist as well: C:\wamp\www\blogyii\frontend/messages/es/app.php
+    in C:\wamp\www\blogyii\frontend\views\Post\index.php:10
+    in C:\wamp\www\blogyii\frontend\controllers\PostController.php:44
+2016-01-28 18:08:08 [::1][1][-][info][application] $_COOKIE = [
+    '_frontendCsrf' => '45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa:2:{i:0;s:13:\"_frontendCsrf\";i:1;s:32:\"qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_\";}'
+    '_backendCsrf' => '2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a:2:{i:0;s:12:\"_backendCsrf\";i:1;s:32:\"EEhJmLqb1kqqzq736nPvrd-aY9pD25cM\";}'
+    '_backendSessionId' => 'a3tpc0anfaeg3bn8c69d8rmc16'
+    '_frontendSessionId' => 'g854bptrglkfs0ckjphi5obl54'
+    '_frontendUser' => '116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a:2:{i:0;s:13:\"_frontendUser\";i:1;s:46:\"[1,\"NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 1
+]
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost:8080/blogyii/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_frontendCsrf=45200000ac6d6ea9de161fff61e60198b66093cff8a4d9f64f9ef56c25f16c6aa%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22qlwPc7FSyYwEg5FqY4DGSdssf9tkaHA_%22%3B%7D; _backendCsrf=2232a9aa0f72ac673d0a838904525ca034a51d66a8c9190aa4686b945585add3a%3A2%3A%7Bi%3A0%3Bs%3A12%3A%22_backendCsrf%22%3Bi%3A1%3Bs%3A32%3A%22EEhJmLqb1kqqzq736nPvrd-aY9pD25cM%22%3B%7D; _backendSessionId=a3tpc0anfaeg3bn8c69d8rmc16; _frontendSessionId=g854bptrglkfs0ckjphi5obl54; _frontendUser=116b3a29f60dbcb1da9c6df93184ed605ff80b74f939692a6fe25db35abbee00a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_frontendUser%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22NgIuUNjyciWeXrfOQicMyXpB_1aNi9d5%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\oraclexe\\app\\oracle\\product\\11.2.0\\server\\bin;C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files\\Microsoft SQL Server\\110\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\Tools\\Binn\\VSShell\\Common7\\IDE\\;C:\\Program Files (x86)\\Microsoft SQL Server\\100\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\wamp\\bin\\php\\php5.5.12;C:\\ProgramData\\ComposerSetup\\bin;'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.9 (Win32) PHP/5.5.12 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.9 (Win32) PHP/5.5.12'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www/'
+    'SERVER_ADMIN' => 'admin@example.com'
+    'SCRIPT_FILENAME' => 'C:/wamp/www/blogyii/index.php'
+    'REMOTE_PORT' => '1778'
+    'REDIRECT_URL' => '/blogyii/post/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/blogyii/post/index'
+    'SCRIPT_NAME' => '/blogyii/index.php'
+    'PHP_SELF' => '/blogyii/index.php'
+    'REQUEST_TIME_FLOAT' => 1454000887.99
+    'REQUEST_TIME' => 1454000887
+]
