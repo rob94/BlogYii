@@ -8,6 +8,7 @@ use yii\helpers\Url;
 use yii\helpers\Html;
 use yii\helpers\ArrayHelper;
 use yii\db\Expression;
+use yii\db\ActiveRecord;
 
 /**
  * This is the model class for table "profile".
@@ -35,7 +36,7 @@ class Profile extends \yii\db\ActiveRecord
 
     /**
     * behaviors
-    *//*
+    */
     public function behaviors()
     {
     return [
@@ -48,8 +49,8 @@ class Profile extends \yii\db\ActiveRecord
     'value' => new Expression('NOW()'),
     ],
     ];
-    }*/
-    public function behaviors()
+    }
+    /*public function behaviors()
     {
     return [
     'access' => [
@@ -70,7 +71,7 @@ class Profile extends \yii\db\ActiveRecord
     ],
     ],
     ];
-    }
+    }*/
 
     /**
      * @inheritdoc

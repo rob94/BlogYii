@@ -1,7 +1,6 @@
 <?php 
 namespace frontend\controllers;
 use Yii;
-use yii\filters\verbFilter;
 use frontend\models\Profile;
 use frontend\models\search\ProfileSearch;
 use yii\web\Controller;
@@ -23,7 +22,7 @@ class ProfileController extends Controller
 		],
 		];
 	}*/
-
+/*
 	public function behaviors()
 	{
 	return [
@@ -59,8 +58,33 @@ class ProfileController extends Controller
 	],
 	],
 	];
-	}
+	}*/
 
+	public function behaviors()
+	{
+		return [
+		'access' => [
+		'class' => \yii\filters\AccessControl::className(),
+		'only' => ['index'],
+		'rules' => [
+		[
+		'actions' => ['index'],
+		'allow' => true,
+		'roles' => ['@'],
+		'matchCallback' => function ($rule, $action) {
+		return PermissionHelpers::requireStatus('Active');
+		}
+		],
+		],
+		],
+		'verbs' => [
+		'class' => VerbFilter::className(),
+		'actions' => [
+		'delete' => ['post'],
+		],
+		],
+		];
+	}
 	/**
 	* Lists all Profile models.
 	* @return mixed
@@ -108,7 +132,7 @@ class ProfileController extends Controller
 	}
 	}
 
-	public function actionCreate
+	public function actionCreate()
 		{
 	$model = new Profile;
 	$model->user_id = \Yii::$app->user->identity->id;
@@ -149,7 +173,7 @@ class ProfileController extends Controller
 		throw new NotFoundHttpException('No Such Profile.');
 		}
 	}
-}
+
 
 	public function actionDelete()
 	{
@@ -166,4 +190,5 @@ class ProfileController extends Controller
 		throw new NotFoundHttpException('The requested page does not exist.');
 		}
 	}
+}
  ?>
