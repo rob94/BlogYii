@@ -7,7 +7,8 @@ use yii\helpers\Html;
 /* @var $model frontend\models\Profile */
 
 $this->title = Yii::t('app', 'Create Profile');
-$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Profiles'), 'url' => ['index']];
+//$this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Profiles'), 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Profile', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="profile-create">
