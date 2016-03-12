@@ -2,7 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-
+use common\models\Categories;
 /* @var $this yii\web\View */
 /* @var $model common\models\Post */
 
@@ -24,6 +24,7 @@ $this->params['breadcrumbs'][] = $this->title;
             ],
         ]) ?>
     </p>
+       <?php $categories = Categories::find()->where(['id' => $model->blog_category_id])->one(); //modelo basado en la consulta para encontrar el nombre de relacion al post. Esto lo hace la funcion de relacion del modelo, pero por el charset no lo logra completar ?> 
 
     <?= DetailView::widget([
         'model' => $model,
@@ -31,10 +32,14 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'created_by',
             'title:ntext',
-            'excerpt:ntext',
-            'body:ntext',
+            'excerpt:html',
+            'body:html',
             'blog_category_id',
-            'categories.nombre',
+            //'categories.nombre'
+            [
+                'attribute' => 'blog_category_id',
+                'value' => $categories->nombre //se llama el modelo creado arriba, especificamente el campo nombre
+            ],
             'status',
             'comment_status',
             'comment_count',

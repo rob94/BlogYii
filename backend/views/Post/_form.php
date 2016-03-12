@@ -2,6 +2,7 @@
 
 use yii\helpers\Html;
 use yii\widgets\ActiveForm;
+use Zelenin\yii\widgets\Summernote\Summernote;
 
 /* @var $this yii\web\View */
 /* @var $model common\models\Post */
@@ -16,9 +17,33 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'title')->textarea(['rows' => 6]) ?>
 
-    <?= $form->field($model, 'excerpt')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'excerpt')->widget(Summernote::className(),[
+            'clientOptions' => [
+                'lang' =>'es-ES',
+                'toolbar' => [
+                    ['style',['bold','italic','underline','clear']],
+                    ['font',['strikethrough','superscript','subscript']],
+                    ['fontsize',['fontsize']],
+                    ['color',['color']],
+                    ['para',['ul','ol','paragraph']],
+                    ['height',['height']]
+                ]
+            ],
+    ])/*textarea(['rows' => 6])*/ ?>
 
-    <?= $form->field($model, 'body')->textarea(['rows' => 6]) ?>
+    <?= $form->field($model, 'body')->widget(Summernote::className(),[
+            'clientOptions' => [
+                'lang' =>'es-ES',
+                'toolbar' => [
+                    ['style',['bold','italic','underline','clear']],
+                    ['font',['strikethrough','superscript','subscript']],
+                    ['fontsize',['fontsize']],
+                    ['color',['color']],
+                    ['para',['ul','ol','paragraph']],
+                    ['height',['height']]
+                ]
+            ],
+    ])/*textarea(['rows' => 6])*/ ?>
 
     <?= $form->field($model, 'blog_category_id')->textInput() ?>
 

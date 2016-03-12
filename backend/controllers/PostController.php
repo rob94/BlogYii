@@ -4,11 +4,13 @@ namespace backend\controllers;
 
 use Yii;
 use common\models\Post;
+use common\models\PermissionHelpers;
 use backend\models\PostSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
-
+use yii\filters\AccessControl;
+use common\models\Categories;
 /**
  * PostController implements the CRUD actions for Post model.
  */
@@ -20,6 +22,25 @@ class PostController extends Controller
     public function behaviors()
     {
         return [
+            'access' => [
+                'class' => AccessControl::className(),
+                'only' => ['index'],
+                'rules' => [
+                    [
+                        // Rol mínimo de RESIDENTE para accesar
+                        'actions' => ['index'],
+                        'allow' => true,
+                        'roles' => ['@'],
+                        'matchCallback' => function ($rule, $action) {
+                            return PermissionHelpers::requireMinimumRole('Admin')
+                                    && PermissionHelpers::requireStatus('Active');
+                        }
+                    ],
+                ],
+             
+            ],
+
+
             'verbs' => [
                 'class' => VerbFilter::className(),
                 'actions' => [

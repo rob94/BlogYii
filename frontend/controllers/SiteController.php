@@ -12,6 +12,10 @@ use yii\web\BadRequestHttpException;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
+use frontend\models\PostSearch;
+use common\models\Categories;
+use common\models\Post;
+use yii\data\Pagination;
 
 /**
  * Site controller
@@ -72,7 +76,20 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->render('index');
+        
+        //$sql = 'SELECT * FROM post ORDER BY id DESC';
+
+        //$query = Post::findBySql($sql);
+        $query = Post::find();
+
+        $countQuery = clone $query;
+        $pages = new Pagination(['totalCount' => $countQuery->count(), 'defaultPageSize' => 10]);
+        $models = $query->offset($pages->offset)
+        ->limit($pages->limit)
+        ->all();
+        return $this->render('index', [
+            'models'=>$models,
+            'pages'=>$pages]);//publish
     }
 
     /**
@@ -213,4 +230,5 @@ class SiteController extends Controller
             'model' => $model,
         ]);
     }
+    
 }

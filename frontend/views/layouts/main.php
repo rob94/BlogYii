@@ -46,7 +46,7 @@ AppAsset::register($this);
         $menuItems[] = ['label' => 'Login', 'url' => ['/site/login']];
         //$menuItems[]= 
         //['label' => 'Post', 'url' => ['/post/view']];
-    } else {
+    } /*else {
         $menuItems[]= 
         ['label' => 'Post', 'url' => ['/post/index']];
         $menuItems[] = [
@@ -55,6 +55,13 @@ AppAsset::register($this);
             'url' => ['/site/logout'],
             'linkOptions' => ['data-method' => 'post']
         ];
+    }*/
+    else {
+    $menuItems[] = [
+    'label' => 'Logout (' . Yii::$app->user->identity->username . ')',
+    'url' => ['/site/logout'],
+    'linkOptions' => ['data-method' => 'post']
+    ];
     }
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav navbar-right'],
@@ -69,12 +76,13 @@ AppAsset::register($this);
         ]) ?>
         <?= Alert::widget() ?>
         <?= $content ?>
+        
     </div>
 </div>
 
 <footer class="footer">
     <div class="container">
-        <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
+        <p class="pull-left">&copy; ROB <?= date('Y') //para cambiar la compañia ?></p>
 
         <p class="pull-right"><?= Yii::powered() ?></p>
     </div>

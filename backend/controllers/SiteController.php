@@ -6,6 +6,8 @@ use yii\filters\AccessControl;
 use yii\web\Controller;
 use common\models\LoginForm;
 use yii\filters\VerbFilter;
+use common\models\PermissionHelpers;;
+use yii\web\NotFoundHttpException;
 
 /**
  * Site controller
@@ -29,6 +31,10 @@ class SiteController extends Controller
                         'actions' => ['logout', 'index'],
                         'allow' => true,
                         'roles' => ['@'],
+                        'matchCallback' => function ($rule, $action) {
+                            return PermissionHelpers::requireMinimumRole('Admin')
+                                    && PermissionHelpers::requireStatus('Active');
+                        }
                     ],
                 ],
             ],
@@ -65,7 +71,7 @@ class SiteController extends Controller
         }
 
         $model = new LoginForm();
-        if ($model->load(Yii::$app->request->post()) && $model->login()) {
+        if ($model->load(Yii::$app->request->post()) && $model->login()/*loginAdim()*/) {
             return $this->goBack();
         } else {
             return $this->render('login', [
